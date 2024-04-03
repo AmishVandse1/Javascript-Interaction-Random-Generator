@@ -1,10 +1,10 @@
-var executeButton = document.getElementById("Button");
-var output = document.getElementById("outputText");
-var input = document.getElementById("myInput");
+var button = document.getElementById("Button");
+var output = document.getElementById("output_text");
+var input = document.getElementById("Input");
 
-executeButton.addEventListener("click", function(){
-    var currentInputText = input.value;
-    generate(currentInputText);
+button.addEventListener("click", function(){
+    var user_input_text = input.value;
+    generate(user_input_text);
     restyle();
 });
 
